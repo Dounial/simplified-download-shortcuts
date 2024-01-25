@@ -1,0 +1,26 @@
+  - trigger: ".git"
+    replace: "sudo git clone "
+
+  - trigger: ".wge"
+    replace: "sudo -v wget "
+
+  - trigger: ".cur"
+    replace: "sudo curl fetch "
+
+  - trigger: ".apt"
+    replace: "sudo apt-get install "
+
+  - trigger: ".dnf"
+    replace: "sudo dnf install "
+
+  - trigger: ".yum"
+    replace: "sudo yum install "
+
+  - trigger: ".pac"
+    replace: "sudo pacman -S "
+
+  - trigger: ".yay"
+    replace: "yay -S "
+
+  - trigger: ".zyp"
+    replace: "sudo zypper install "
